@@ -1,0 +1,11 @@
+# Heartless Horizon Config
+starting-hearts: 10
+hearts-lost-per-death: 2
+
+enable-elimination: true
+elimination-message: "§cYou lost all your hearts and have been eliminated."
+elimination-ban-hours: 4
+
+revive-hearts: 10
+
+nametag-enabled: true

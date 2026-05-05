@@ -1,0 +1,29 @@
+name: HeartlessPlugin
+version: '1.1.0'
+main: com.DeltaOpss.HeartlessPlugin
+api-version: '1.21'
+author: DeltaOpss
+
+commands:
+  revive:
+    description: Revives a player
+    usage: /revive <player>
+  hearts:
+    description: Manage Hearts
+    usage: /hearts <set|add|remove> <player> <amount>
+  owner:
+    description: Toggle immortal (white hearts)
+    usage: /owner <set|unset> <player>
+  heartless:
+    description: Toggle black hearts mode
+    usage: /heartless <set|unset> <player>
+
+permissions:
+  heartless.revive:
+    default: op
+  heartless.hearts:
+    default: op
+  heartless.owner:
+    default: op
+  heartless.heartless:
+    default: op
